@@ -1,0 +1,16 @@
+---
+title: VisionScript Documentation
+layout: default.njk
+---
+
+<h1>{{ title }}</h1>
+<p>{{ definition }}</p>
+{{ content | safe }}
+<h2>See Also</h2>
+<ul>
+    {% for page in collections.std %}
+        {% if page.data.title != title %}
+            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>

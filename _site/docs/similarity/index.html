@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Similarity[] - VisionScript Documentation</title>
+
+        <meta name="description" content="VisionScript is an abstract programming language for computer vision.">
+
+        <style>
+            * {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                box-sizing: border-box;
+            }
+            html, body {
+                background-color: #f7f7f7;
+                padding: 0;
+                margin: 0;
+                line-height: 1.5;
+            }
+            h1, h2, h3 {
+                color: darkgreen;
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 0.5rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            h3 {
+                font-size: 1.1rem;
+            }
+            main {
+                max-width: 40em;
+                margin: 0 auto;
+            }
+            pre {
+                background-color: #eee;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                white-space: pre-line;
+            }
+            nav, footer {
+                background-color: darkgreen;
+                padding: 0.5rem;
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                display: inline-block;
+                margin-right: 1rem;
+            }
+            nav a, footer a, footer p {
+                color: white;
+                text-decoration: none;
+            }
+            footer {
+                text-align: center;
+            }
+            aside {
+                position: fixed;
+                top: 3rem;
+                left: 0;
+                padding: 1rem;
+                overflow-y: scroll;
+            }
+            aside li {
+                display: block;
+                margin-bottom: 1rem;
+            }
+            a {
+                color: rgb(10, 139, 10);
+                text-decoration: none;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                border: 1px solid #ddd;
+            }
+            th, td {
+                text-align: left;
+                padding: 0.5rem;
+            }
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            th {
+                background-color: darkgreen;
+                color: white;
+            }
+            main {
+                min-height: 60vh;
+            }
+            footer {
+                margin-top: 2rem;
+            }
+            footer p, nav p {
+                margin: 0;
+            }
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <p><a href="/">VisionScript</a></p>
+            <ul>
+                <li><a href="/std">Reference</a></li>
+                <li><a href="/syntax">Syntax</a></li>
+                <li><a href="https://github.com/capjamesg/visionscript">GitHub</a></li>
+            </ul>
+        </nav>
+        <main>
+            
+<h1>Similarity[]</h1>
+<p>Get the similarity between two or more images.</p>
+<h3>Syntax</h3>
+<pre><code>Similarity[]
+Similarity[3]
+</code></pre>
+<h3>Arguments</h3>
+<ul>
+<li><code>n</code> - The number of images to compare. Defaults to 2.</li>
+</ul>
+<h3>Examples</h3>
+<p>The following example loads two images, compares them, and displays a similarity score.</p>
+<pre><code>Load[&quot;./photo.jpg&quot;]
+Load[&quot;./photo1.jpg&quot;]
+Similarity[]
+Say[]
+</code></pre>
+
+<h2>See Also</h2>
+<ul>
+    
+        
+            <li><a href="/docs/load/">Load[]</a></li>
+        
+    
+        
+            <li><a href="/docs/compare/">Compare[]</a></li>
+        
+    
+        
+            <li><a href="/docs/greyscale/">Greyscale[]</a></li>
+        
+    
+        
+            <li><a href="/docs/get_text/">GetText[]</a></li>
+        
+    
+        
+            <li><a href="/docs/use/">Use[]</a></li>
+        
+    
+        
+            <li><a href="/docs/rotate/">Rotate[]</a></li>
+        
+    
+        
+            <li><a href="/docs/resize/">Resize[]</a></li>
+        
+    
+        
+            <li><a href="/docs/save/">Save[]</a></li>
+        
+    
+        
+            <li><a href="/docs/say/">Say[]</a></li>
+        
+    
+        
+            <li><a href="/docs/make/">Make[]</a></li>
+        
+    
+        
+            <li><a href="/docs/detect/">Detect[]</a></li>
+        
+    
+        
+            <li><a href="/docs/segment/">Segment[]</a></li>
+        
+    
+        
+            <li><a href="/docs/exit/">Exit[]</a></li>
+        
+    
+        
+            <li><a href="/docs/classify/">Classify[]</a></li>
+        
+    
+        
+            <li><a href="/docs/blur/">Blur[]</a></li>
+        
+    
+        
+            <li><a href="/docs/set_brightness/">SetBrightness[]</a></li>
+        
+    
+        
+            <li><a href="/docs/count/">Count[]</a></li>
+        
+    
+        
+            <li><a href="/docs/describe/">Describe[]</a></li>
+        
+    
+        
+    
+        
+            <li><a href="/docs/count_in_region/">CountInRegion[]</a></li>
+        
+    
+        
+            <li><a href="/docs/read_qr/">ReadQR[]</a></li>
+        
+    
+        
+            <li><a href="/docs/search/">Search[]</a></li>
+        
+    
+        
+            <li><a href="/docs/import/">Import[]</a></li>
+        
+    
+        
+            <li><a href="/docs/size/">Size[]</a></li>
+        
+    
+        
+            <li><a href="/docs/show/">Show[]</a></li>
+        
+    
+        
+            <li><a href="/docs/find/">Find[]</a></li>
+        
+    
+        
+            <li><a href="/docs/select/">Select[]</a></li>
+        
+    
+        
+            <li><a href="/syntax/">VisionScript Syntax</a></li>
+        
+    
+</ul>
+        </main>
+        <footer>
+            <p>Made with love and coffee by <a href="https://jamesg.blog">capjamesg</a>.</p>
+        </footer>
+    </body>
+</html>
