@@ -1,13 +1,15 @@
 {
-  "name": "docs",
+  "name": "visual-script-docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Documentation for VisualScript.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "documentation"
+  ],
+  "author": "capjamesg",
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
