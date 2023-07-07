@@ -2,7 +2,6 @@
 title: What is VisionScript?
 definition: More information about VisionScript.
 layout: std.njk
-tags: std
 ---
 
 VisionScript is an abstract programming language for computer vision tasks.

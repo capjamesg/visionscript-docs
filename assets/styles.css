@@ -33,12 +33,12 @@ nav, footer {
     background-color: darkgreen;
     padding: 0.5rem;
 }
-ul {
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-li {
+nav ul li {
     display: inline-block;
     margin-right: 1rem;
 }
@@ -81,13 +81,17 @@ th {
     color: white;
 }
 main {
-    min-height: 60vh;
+    min-height: 80vh;
 }
 footer {
     margin-top: 2rem;
 }
 footer p, nav p {
     margin: 0;
+}
+footer a {
+    color: lavenderblush;
+    font-weight: bold;
 }
 nav {
     display: flex;

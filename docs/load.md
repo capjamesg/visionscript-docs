@@ -19,27 +19,9 @@ Load["./folder/"]
 
 ### Example
 
----
-title: Search[]
-definition: Search a folder of images with a text query.
-layout: std.njk
-tags: std
----
-
-### Syntax
+The following example loads an image and displays it.
 
 ```
-Search["query"]
-```
-
-### Arguments
-
-- `query` - The text query.
-
-### Examples
-
-The following example loads an image by URL:
-
-```
-Load["https://example.com/photo.jpg"]
+Load["./photo.jpg"]
+Show[]
 ```

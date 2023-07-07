@@ -3,7 +3,10 @@ title: VisionScript Documentation
 layout: default.njk
 ---
 
-<h1>Library Reference</h1>
+# Library Reference
+
+Functions available in the VisionScript language.
+
 <ul>
     {% for page in collections.std %}
         {% if page.data.title != title %}
