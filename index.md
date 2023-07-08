@@ -12,7 +12,7 @@ layout: default.njk
     <li>Apply transformations to images (i.e. greyscale, resize, blur, cut out parts of the image, replace sections in an image)</li>
     <li>And more!</li>
 </ul>
-<h2>Install VisionScript</h2>
+<h2 id="install">Install VisionScript</h2>
 <p>Install VisionScript with <code>pip</code>:</p>
 <pre>pip install visionscript</pre>
 <p>Create a file with VisionScript:</p>
