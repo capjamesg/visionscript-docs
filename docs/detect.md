@@ -34,7 +34,8 @@ Show[]
 
 ### Supported Models
 
-TODO
+- [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO)
+- [Ultralytics YOLOv8 (COCO checkpoint)](https://github.com/ultralytics/ultralytics)
 
 ### Synonyms
 

@@ -33,4 +33,4 @@ Show[]
 
 ### Supported Models
 
-TODO
+- [CLIP](https://github.com/openai/clip)

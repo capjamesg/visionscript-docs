@@ -24,4 +24,4 @@ Say[]
 
 ### Supported Models
 
-TODO
+See Supported Models section in <a href="/docs/detect">Detect[]</a>, <a href="/docs/segment">Segment[]</a>, <a href="/docs/classify">Classify[]</a>, and <a href="/docs/caption">Caption[]</a> to find which models are supported for the task type you are using.

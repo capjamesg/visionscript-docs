@@ -27,4 +27,4 @@ Show[]
 
 ### Supported Models
 
-TODO
+- [BLIP](https://github.com/salesforce/BLIP)

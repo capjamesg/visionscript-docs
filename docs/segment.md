@@ -34,4 +34,4 @@ Show[]
 
 ### Supported Models
 
-TODO
+- [GroundedSAM](https://github.com/autodistill/autodistill-grounded-sam)
