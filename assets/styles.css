@@ -22,6 +22,7 @@ h3 {
 main {
     max-width: 40em;
     margin: 0 auto;
+    padding: 1rem;
 }
 pre {
     background-color: #eee;
