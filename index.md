@@ -7,12 +7,14 @@ layout: default.njk
 <p>VisionScript abstract programming language for using computer vision.</p>
 <p>With VisionScript, you can:</p>
 <ul>
-    <li>Build a semantic search engine</li>
-    <li>Use OCR on images</li>
+    <li>Build an image search engine</li>
+    <li>Replace items in images</li>
+    <li>Generate text descriptions of images</li>
+    <li>Classify images</li>
     <li>Apply transformations to images (i.e. greyscale, resize, blur, cut out parts of the image, replace sections in an image)</li>
     <li>And more!</li>
 </ul>
-<p>The latest version of VisionScript is 0.0.2.</p>
+<p>The latest version of VisionScript is <a href="https://pypi.org/project/visionscript/">0.0.2</a>.</p>
 <h2 id="install">Install VisionScript</h2>
 <p>Install VisionScript with <code>pip</code>:</p>
 <pre>pip install visionscript</pre>
