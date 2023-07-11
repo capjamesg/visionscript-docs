@@ -7,6 +7,8 @@ tags:
     - Input
 ---
 
+SetRegion[] must be called before Detect[] or Segment[] to filter detections by region. If SetRegion[] is not called, the entire image is used as the region.
+
 ### Syntax
 
 ```
