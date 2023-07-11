@@ -2,7 +2,9 @@
 title: SetConfidence[]
 definition: Set the confidence percentage that must be met for predictions to be returned by a model
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

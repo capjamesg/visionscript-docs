@@ -2,7 +2,9 @@
 title: Read[]
 definition: Read the value at the top of the stack. Used in if statement conditionals.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 When writing an `if` statement, you may want to use a value from a previous computation.

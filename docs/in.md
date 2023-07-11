@@ -2,7 +2,9 @@
 title: In[]
 definition: Iterate over all images in a folder.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

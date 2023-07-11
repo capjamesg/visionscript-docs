@@ -2,7 +2,9 @@
 title: Greyscale[]
 definition: Convert an image to greyscale
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

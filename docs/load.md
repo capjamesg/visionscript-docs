@@ -2,7 +2,9 @@
 title: Load[]
 definition: Load an image from a file or a URL. Also, load all images in a folder.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Input
 ---
 
 ### Examples

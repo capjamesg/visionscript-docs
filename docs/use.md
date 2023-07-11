@@ -2,7 +2,9 @@
 title: Use[]
 definition: Declare a model to use
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

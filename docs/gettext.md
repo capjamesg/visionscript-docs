@@ -2,7 +2,9 @@
 title: GetText[]
 definition: Retrieve text in an image
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 ### Syntax

@@ -2,7 +2,9 @@
 title: Say[]
 definition: Say a message
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Output
 ---
 
 ### Syntax

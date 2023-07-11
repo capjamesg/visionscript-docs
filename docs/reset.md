@@ -1,8 +1,10 @@
 ---
 title: Reset[]
-definition: Reset application state to a blank initialization.
+definition: Reset program state to a blank initialization.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

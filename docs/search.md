@@ -2,7 +2,9 @@
 title: Search[]
 definition: Search a folder of images with a text query.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 ### Syntax

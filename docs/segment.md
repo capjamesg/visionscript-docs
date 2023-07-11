@@ -2,7 +2,9 @@
 title: Segment[]
 definition: Find objects in an image at a pixel level.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 Segment[] uses a zero-shot model which means you can specify any class you like.

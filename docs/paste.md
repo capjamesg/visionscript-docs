@@ -2,7 +2,9 @@
 title: Paste[]
 definition: Paste the last item on the stack to an x,y coordinate.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

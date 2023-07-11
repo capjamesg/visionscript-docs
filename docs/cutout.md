@@ -2,7 +2,9 @@
 title: Cutout[]
 definition: Cut out the region of a bounding box returned by an object detection model.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

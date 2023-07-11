@@ -2,7 +2,9 @@
 title: Input[]
 definition: Get user input.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Deploy
 ---
 
 Inputs let you accept image or text input from a user.

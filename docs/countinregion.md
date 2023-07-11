@@ -2,7 +2,9 @@
 title: CountInRegion[]
 definition: Count the number of images in a region
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 ### Syntax

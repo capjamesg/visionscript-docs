@@ -2,7 +2,9 @@
 title: Find[]
 definition: See Detect[].
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 A synonym for <a href="/docs/detect">Detect[]</a>.

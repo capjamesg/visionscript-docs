@@ -2,7 +2,9 @@
 title: Make[]
 definition: Define a function.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

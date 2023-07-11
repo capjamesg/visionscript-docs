@@ -2,7 +2,9 @@
 title: Count[]
 definition: Count the number of predictions in an image
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 ### Syntax

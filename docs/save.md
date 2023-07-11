@@ -2,7 +2,9 @@
 title: Save[]
 definition: Save an image to a file
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Output
 ---
 
 ### Syntax

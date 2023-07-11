@@ -2,7 +2,9 @@
 title: Select[]
 definition: Select an item from a list.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

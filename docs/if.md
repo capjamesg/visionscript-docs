@@ -2,7 +2,9 @@
 title: If[]
 definition: Run code if a statement is true.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

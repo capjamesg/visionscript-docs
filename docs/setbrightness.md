@@ -2,7 +2,9 @@
 title: SetBrightness[]
 definition: Set the brightness of an image
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

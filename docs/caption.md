@@ -2,7 +2,9 @@
 title: Caption[]
 definition: Generate a caption for an image.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 <div class="note">

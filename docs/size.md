@@ -2,7 +2,9 @@
 title: Size[]
 definition: Get the size of an image.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

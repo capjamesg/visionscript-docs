@@ -2,7 +2,9 @@
 title: Similarity[]
 definition: Get the similarity between two or more images.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 ### Syntax

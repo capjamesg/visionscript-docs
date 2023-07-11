@@ -2,7 +2,9 @@
 title: Equality (==, !=)
 definition: Test for equality or inequality between two values.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

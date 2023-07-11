@@ -2,7 +2,9 @@
 title: Resize[]
 definition: Resize an image
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

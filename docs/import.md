@@ -2,7 +2,9 @@
 title: Import[]
 definition: Import a .vic file.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Logic
 ---
 
 ### Syntax

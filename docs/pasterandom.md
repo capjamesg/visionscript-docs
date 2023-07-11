@@ -2,7 +2,9 @@
 title: PasteRandom[]
 definition: Paste the last item on the stack to a random x,y coordinate.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Process
 ---
 
 ### Syntax

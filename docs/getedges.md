@@ -2,7 +2,9 @@
 title: GetEdges[]
 definition: Uses Sobel edge detection to find the edges in an image.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 ### Syntax

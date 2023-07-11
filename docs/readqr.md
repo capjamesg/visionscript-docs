@@ -2,7 +2,9 @@
 title: ReadQR[]
 definition: Read a QR code and return the text associated with the QR code.
 layout: std.njk
-tags: std
+tags:
+    - std
+    - Find
 ---
 
 ### Syntax
