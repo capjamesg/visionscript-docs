@@ -12,7 +12,10 @@ Functions available in the VisionScript language.
 <ul>
     {% for page in collections.std %}
         {% if page.data.tags contains "Input" %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+            <li>
+                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+                <p>{{ page.data.definition }}</p>
+            </li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -22,7 +25,10 @@ Functions available in the VisionScript language.
 <ul>
     {% for page in collections.std %}
         {% if page.data.tags contains "Process" %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+            <li>
+                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+                <p>{{ page.data.definition }}</p>
+            </li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -32,7 +38,10 @@ Functions available in the VisionScript language.
 <ul>
     {% for page in collections.std %}
         {% if page.data.tags contains "Find" %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+            <li>
+                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+                <p>{{ page.data.definition }}</p>
+            </li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -42,7 +51,10 @@ Functions available in the VisionScript language.
 <ul>
     {% for page in collections.std %}
         {% if page.data.tags contains "Output" %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+            <li>
+                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+                <p>{{ page.data.definition }}</p>
+            </li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -52,7 +64,10 @@ Functions available in the VisionScript language.
 <ul>
     {% for page in collections.std %}
         {% if page.data.tags contains "Logic" %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+            <li>
+                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+                <p>{{ page.data.definition }}</p>
+            </li>
         {% endif %}
     {% endfor %}
 </ul>
@@ -62,7 +77,10 @@ Functions available in the VisionScript language.
 <ul>
     {% for page in collections.Deploy %}
         {% if page.data.tags contains "Deploy" %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+            <li>
+                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
+                <p>{{ page.data.definition }}</p>
+            </li>
         {% endif %}
     {% endfor %}
 </ul>

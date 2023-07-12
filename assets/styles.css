@@ -105,3 +105,29 @@ img {
     border-radius: 0.5rem;
     border: 1px solid #ccc;
 }
+.breadcrumbs {
+    margin-bottom: 1rem;
+}
+.breadcrumbs a {
+    color: darkgreen;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.gallery img:hover {
+    opacity: 0.8;
+}
+.gallery img:active {
+    opacity: 0.5;
+}
+.gallery li {
+    flex: 1 1 30%;
+    margin-bottom: 1rem;
+    border: 2px solid darkgreen;
+}

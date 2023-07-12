@@ -12,8 +12,8 @@ layout: default.njk
     {
       "@type": "ListItem",
       "position": 1",
-      "name": "VisionScript Documentation",
-      "item": "https://visionscript.org/docs/"
+      "name": "Made with VisionScript",
+      "item": "https://visionscript.org/gallery/"
     },
     {
       "@type": "ListItem",
@@ -26,17 +26,19 @@ layout: default.njk
 </script>
 
 <div class="breadcrumbs">
-    <a href="https://visionscript.org/docs/">VisionScript Documentation</a> &gt; {{ title }}
+    <a href="https://visionscript.org/gallery/">Made with VisionScript</a> &gt; {{ title }}
 </div>
 
 <h1 class="p-name">{{ title }}</h1>
-<p class="p-summary">{{ definition }}</p>
+<p class="p-summary">{{ description }}</p>
+<img src="{{ image }}" alt="{{ title }}" class="u-photo">
 <div class="e-content">
 {{ content | safe }}
 </div>
-<h2>See Also</h2>
+
+<h2>See More Projects</h2>
 <ul>
-    {% for page in collections.std %}
+    {% for page in collections.gallery %}
         {% if page.data.title != title %}
             <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
         {% endif %}
