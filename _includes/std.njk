@@ -3,7 +3,6 @@ title: VisionScript Documentation
 layout: default.njk
 ---
 
-// add breadrcrumbs json ld
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -11,13 +10,13 @@ layout: default.njk
   "itemListElement": [
     {
       "@type": "ListItem",
-      "position": 1",
+      "position": 1,
       "name": "VisionScript Documentation",
       "item": "https://visionscript.org/docs/"
     },
     {
       "@type": "ListItem",
-      "position": 2",
+      "position": 2,
       "name": "{{ title }}",
       "item": "{{ url }}"
     }
@@ -38,7 +37,7 @@ layout: default.njk
 <ul>
     {% for page in collections.std %}
         {% if page.data.title != title %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+            <li><p><a href="{{ page.url }}">{{ page.data.title }}</a></p></li>
         {% endif %}
     {% endfor %}
 </ul>
