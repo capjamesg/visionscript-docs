@@ -22,10 +22,12 @@ Caption[]
 The following example loads an image, generates a caption, and displays the results.
 
 ```
-Load["./photo.jpg"]
-Detect["person"]
+Load["./tmp/bus.jpg"]
+GetEdges[]
 Show[]
 ```
+
+![A caption reading "a bus is driving down the street in front of a building"](/assets/caption.png)
 
 ### Supported Models
 

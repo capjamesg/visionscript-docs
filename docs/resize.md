@@ -23,7 +23,9 @@ Resize[100, 100]
 The following example loads an image, resizes it to 100x100, and displays it.
 
 ```
-Load["./photo.jpg"]
-Resize[100, 100]
+Load["./tmp/cat.jpg"]
+Resize[250, 250]
 Show[]
 ```
+
+![A photo of a cat resized to 250x250](/assets/resize.png)
