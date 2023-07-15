@@ -3,6 +3,8 @@ title: VisionScript Documentation
 layout: default.njk
 ---
 
+<img src="/assets/image_similarity.png" alt="A VisionScript notebook to find the similarity between two images" />
+
 <h1>VisionScript</h1>
 <p>VisionScript is an abstract programming language for doing common computer vision tasks, fast.</p>
 <p>With VisionScript, you can:</p>
@@ -15,7 +17,7 @@ layout: default.njk
     <li>And more!</li>
 </ul>
 <p>The latest version of VisionScript is <a href="https://pypi.org/project/visionscript/">0.0.4</a>.</p>
-<img src="/assets/image_similarity.png" alt="A VisionScript notebook to find the similarity between two images" />
+
 <h2 id="install">Install VisionScript</h2>
 <p>Install VisionScript with <code>pip</code>:</p>
 <pre>pip install visionscript</pre>
