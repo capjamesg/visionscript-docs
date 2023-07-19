@@ -5,7 +5,7 @@ layout: default.njk
 
 <img src="/assets/image_similarity.png" alt="A VisionScript notebook to find the similarity between two images" />
 
-<h1>VisionScript</h1>
+<h1 class="p-name">VisionScript</h1>
 <p>VisionScript is an abstract programming language for doing common computer vision tasks, fast.</p>
 <p>With VisionScript, you can:</p>
 <ul>
