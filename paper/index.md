@@ -19,7 +19,7 @@ Once you have taken a photo, click "Upload photo" to send the photo to VisionScr
 
 Here is an example of a VisionScript program written on paper and moved into VisionScript using Paper Mode:
 
-![A VisionScript program in VisionScript Notebooks](/assets/paper_mode_notebook.png)
+![A VisionScript program in VisionScript Notebooks](/assets/paper_mode_notebook.jpeg)
 
 ## See Also
 
