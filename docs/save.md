@@ -1,29 +1,31 @@
 ---
 title: Save[]
-definition: Save an image to a file
+definition: Save an image or detections to a file
 layout: std.njk
 tags:
     - std
     - Output
 ---
 
+You can save two types of data to a file:
+
+1. An image
+2. Detections from Detect[] or Segment[]
+
 ### Syntax
 
 ```
-Resize[100, 100]
+Save["filename"]
 ```
 
 ### Arguments
 
-- `width` - The width to resize the image to.
-- `height` - The height to resize the image to.
+- `filename` - The name of the file to save the image or detections to. Use `.csv` as the file extension to save detections. Use `.jpg` or `.png` to save an image.
 
 ### Examples
 
-The following example loads an image, resizes it to 100x100, and displays it.
-
 ```
 Load["./photo.jpg"]
-Resize[100, 100]
-Show[]
+Detect["people"]
+Save["./photo_with_detections.jpg"]
 ```
