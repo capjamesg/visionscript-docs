@@ -4,6 +4,8 @@ layout: default.njk
 permalink: /paper/internals
 ---
 
+# Paper Mode in VisionScript Programs
+
 Under the hood, Paper Mode is powered by three lines of VisionScript:
 
 ```
@@ -23,3 +25,7 @@ Behind the scenes, GetText[] calls the Google Cloud OCR API to read the text in 
 Then, error correction is applied to try and fix any errors present.
 
 The text is returned to the Notebook and turned into a VisionScript program in Interactive Mode.
+
+## See Also
+
+- [How to use Paper Mode](/paper)

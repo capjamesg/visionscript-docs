@@ -3,6 +3,8 @@ title: How to Use VisionScript Paper Mode
 layout: default.njk
 ---
 
+# How to Use VisionScript Paper Mode
+
 Paper Mode lets you run VisionScript code written on paper. You can use this feature to run handwritten code or code using pre-made cards that you can assemble into programs.
 
 Here is an example of James, the creator of VisionScript, writing a program with hand-made cards that was run with VisionScript:
@@ -18,3 +20,7 @@ Once you have taken a photo, click "Upload photo" to send the photo to VisionScr
 Here is an example of a VisionScript program written on paper and moved into VisionScript using Paper Mode:
 
 ![A VisionScript program in VisionScript Notebooks](/assets/paper_mode_notebook.png)
+
+## See Also
+
+- [The internals of Paper Mode](/paper/internals)
