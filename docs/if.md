@@ -16,7 +16,7 @@ If[statement]
 
 ### Arguments
 
-- `statement`: A statement to evaluate. The statement must evaluate to `True` or `False`.
+- `statement`: A statement to evaluate. The statement must evaluate to `True` or `False`. Statements can also be comparisons using `>`, `<`, `>=`, `<=`, `==`, and `!=`.
 - `...`: An arbitrary number of commands indented with a tab character. These commands are run if the `if` statement evaluates to `True`.
 
 ### Examples
