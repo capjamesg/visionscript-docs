@@ -10,8 +10,15 @@ tags:
 ### Syntax
 
 ```
-Count[]
+CountInRegion[x, y, width, height]
 ```
+
+## Arguments
+
+- `x` - The x coordinate of the top left corner of the region.
+- `y` - The y coordinate of the top left corner of the region.
+- `width` - The width of the region.
+- `height` - The height of the region.
 
 ### Examples
 
