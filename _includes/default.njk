@@ -21,22 +21,49 @@
     </head>
     <body>
         <nav>
-            <p><a href="/">VisionScript</a></p>
+            <a href="/">
+                <p style="margin: 0;"><img src="/assets/logo.svg" alt="VisionScript Logo" height="30" width="30" class="hide_on_desktop"></p>
+                <p style="margin: 0;" class="hide_on_mobile"><img src="/assets/full_logo.svg" alt="VisionScript Logo" height="30" width="200" style="background-color: white;"></p>
+            </a>
             <ul>
                 <li><a href="/#install">Install</a></li>
-                <li><a href="/quickstart">Quickstart</a></li>
                 <li><a href="/tutorials">Tutorials</a></li>
                 <li><a href="/docs">Reference</a></li>
-                <li><a href="/paper">Paper Mode</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="https://github.com/capjamesg/visionscript">GitHub</a></li>
             </ul>
         </nav>
         <main class="h-entry">
             {{ content | safe }}
         </main>
         <footer>
-            <p>Made with ❤️ and ☕ by <a href="https://jamesg.blog">capjamesg</a>.</p>
+            <div>
+                <img src="/assets/logo.svg" alt="VisionScript Logo">
+            </div>
+            <div>
+                <p>Learn VisionScript</p>
+                <ul>
+                    <li><a href="/#install">Install VisionScript</a></li>
+                    <li><a href="/quickstart">Quickstart</a></li>
+                    <li><a href="/tutorials">Tutorials</a></li>
+                </ul>
+                <p>How Tos</p>
+                <ul>
+                    <li><a href="/docs">Lint Code</a></li>
+                    <li><a href="/documenting">Document a Program</a></li>
+                    <li><a href="/deploy_howto">Deploy a Program</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Reference</p>
+                <ul>
+                    <li><a href="/notebook_howto">VisionScript Notebooks</a></li>
+                    <li><a href="/docs">Language Documentation</a></li>
+                    <li><a href="/paper">Paper Mode</a></li>
+                    <li><a href="/about">About VisionScript</a></li>
+                    <li><a href="https://github.com/capjamesg/visionscript">View Language Source</a></li>
+                    <li><a href="https://github.com/capjamesg/visionscript/blob/main/CONTRIBUTING.md">Contribute</a></li>
+                </ul>
+            </div>
         </footer>
+        <p id="attribution">Made with ❤️ by <a href="https://jamesg.blog">capjamesg</a></p>
     </body>
 </html>

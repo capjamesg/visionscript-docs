@@ -46,11 +46,3 @@ layout: default.njk
 <h3>Run in a REPL</h3>
 <p>You can run code in a REPL session using the following command:</p>
 <pre>visionscript --repl</pre>
-<h2>Library Reference</h2>
-<ul>
-    {% for page in collections.std %}
-        {% if page.data.title != title %}
-            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-</ul>
