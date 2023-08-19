@@ -3,6 +3,8 @@ title: How to Use VisionScript Notebooks
 layout: default.njk
 ---
 
+<img src="/assets/image_similarity.png" alt="A VisionScript notebook to find the similarity between two images" />
+
 VisionScript Notebook is an interactive environment for writing and running VisionScript scripts. In Notebooks, you can write programs in a drag-and-drop editor, or in VisionScript code. You can save notebooks for later use, or deploy your code as a public notebook or an interactive web application.
 
 We recommend using VisionScript notebooks for experimenting with VisionScript and writing scripts that involve either using larger models (i.e. `groundingdino`) or creating search indexes using the [Search[]](/docs/search) method.

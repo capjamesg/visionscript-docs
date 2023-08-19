@@ -1,20 +1,20 @@
 ---
-title: VisionScript Documentation
+title: Library Reference
 layout: default.njk
 ---
-
-# Library Reference
 
 Functions available in the VisionScript language.
 
 <h2>Input</h2>
 
-<ul>
+<ul class="language_list">
     {% for page in collections.std %}
         {% if page.data.tags contains "Input" %}
             <li>
-                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-                <p>{{ page.data.definition }}</p>
+                <a href="{{ page.url }}" class="Input language_card">
+                    <p style="font-weight: bold;">{{ page.data.title }}</p>
+                    <p>{{ page.data.definition }}</p>
+                </a>
             </li>
         {% endif %}
     {% endfor %}
@@ -22,12 +22,14 @@ Functions available in the VisionScript language.
 
 <h2>Process</h2>
 
-<ul>
+<ul class="language_list">
     {% for page in collections.std %}
         {% if page.data.tags contains "Process" %}
             <li>
-                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-                <p>{{ page.data.definition }}</p>
+                <a href="{{ page.url }}" class="Process language_card">
+                    <p style="font-weight: bold;">{{ page.data.title }}</p>
+                    <p>{{ page.data.definition }}</p>
+                </a>
             </li>
         {% endif %}
     {% endfor %}
@@ -35,12 +37,14 @@ Functions available in the VisionScript language.
 
 <h2>Find</h2>
 
-<ul>
+<ul class="language_list">
     {% for page in collections.std %}
         {% if page.data.tags contains "Find" %}
             <li>
-                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-                <p>{{ page.data.definition }}</p>
+                <a href="{{ page.url }}" class="Find language_card">
+                    <p style="font-weight: bold;">{{ page.data.title }}</p>
+                    <p>{{ page.data.definition }}</p>
+                </a>
             </li>
         {% endif %}
     {% endfor %}
@@ -48,12 +52,14 @@ Functions available in the VisionScript language.
 
 <h2>Output</h2>
 
-<ul>
+<ul class="language_list">
     {% for page in collections.std %}
         {% if page.data.tags contains "Output" %}
             <li>
-                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-                <p>{{ page.data.definition }}</p>
+                <a href="{{ page.url }}" class="Output language_card">
+                    <p style="font-weight: bold;">{{ page.data.title }}</p>
+                    <p>{{ page.data.definition }}</p>
+                </a>
             </li>
         {% endif %}
     {% endfor %}
@@ -61,12 +67,14 @@ Functions available in the VisionScript language.
 
 <h2>Logic</h2>
 
-<ul>
+<ul class="language_list">
     {% for page in collections.std %}
         {% if page.data.tags contains "Logic" %}
             <li>
-                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-                <p>{{ page.data.definition }}</p>
+                <a href="{{ page.url }}" class="Logic language_card">
+                    <p style="font-weight: bold;">{{ page.data.title }}</p>
+                    <p>{{ page.data.definition }}</p>
+                </a>
             </li>
         {% endif %}
     {% endfor %}
@@ -74,12 +82,14 @@ Functions available in the VisionScript language.
 
 <h2>Deploy</h2>
 
-<ul>
-    {% for page in collections.Deploy %}
+<ul class="language_list">
+    {% for page in collections.std %}
         {% if page.data.tags contains "Deploy" %}
             <li>
-                <p><a href="{{ page.url }}">{{ page.data.title }}</a></p>
-                <p>{{ page.data.definition }}</p>
+                <a href="{{ page.url }}" class="Deploy language_card">
+                    <p style="font-weight: bold;">{{ page.data.title }}</p>
+                    <p>{{ page.data.definition }}</p>
+                </a>
             </li>
         {% endif %}
     {% endfor %}

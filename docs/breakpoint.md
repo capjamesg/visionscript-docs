@@ -2,6 +2,7 @@
 title: Breakpoint[]
 definition: Pause program runtime and start a debugging session.
 layout: std.njk
+available_in_notebook: true
 tags:
     - std
     - Logic

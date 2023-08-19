@@ -2,6 +2,7 @@
 title: Reset[]
 definition: Reset program state to a blank initialization.
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Logic

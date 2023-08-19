@@ -5,6 +5,9 @@ layout: std.njk
 tags:
     - std
     - Output
+signatures:
+    - string
+    - expr
 ---
 
 ### Syntax

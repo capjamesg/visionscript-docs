@@ -23,10 +23,18 @@ h2 {
 h3 {
     font-size: 1.1rem;
 }
-main {
+main, header, .breadcrumbs {
     max-width: 40em;
     margin: 0 auto;
     padding: 1rem;
+    padding-bottom: 0;
+}
+header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+main {
+    padding-top: 0;
 }
 pre {
     background-color: #eee;
@@ -138,9 +146,6 @@ code {
     padding: 0.1rem 0.3rem;
     border-radius: 0.3rem;
 }
-.breadcrumbs {
-    margin-bottom: 1rem;
-}
 .breadcrumbs a {
     color: darkgreen;
 }
@@ -170,7 +175,93 @@ code {
 .hide_on_mobile {
     display: block;
 }
+figure {
+    margin: 0;
+}
+#menu {
+    display: flex;
+}
+#mobile_menu {
+    display: none;
+}
+input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+nav button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.side_by_side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+.language_card {
+    flex: 1 1 30%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    display: block;
+    color: black !important;
+}
+.language_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.Input {
+    background-color: #a2d2ff;
+}
+.Process {
+    background-color: #cdb4db;
+}
+.Find {
+    background-color: #ccd5ae;
+}
+.Output {
+    background-color: lavender;
+}
+.Logic {
+    background-color: #ffdf6b;
+}
+.badge {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: -1rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    background-color: lightpink;
+    box-shadow: 0 0 0 1px #ccc;
+}
+.side_by_side div:first-child {
+    padding-right: 20px;
+}
 @media screen and (max-width: 600px) {
+    .side_by_side {
+        flex-direction: column;
+    }
+    .side_by_side div:first-child {
+        padding-right: 0;
+    }
+    #menu {
+        display: none;
+    }
+    #mobile_menu {
+        list-style-type: none;
+    }
+    #mobile_menu li {
+        width: 100%;
+        margin-bottom: 15px;
+    }
     footer {
         flex-direction: column;
         text-align: left;

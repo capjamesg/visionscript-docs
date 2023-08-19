@@ -1,6 +1,7 @@
 ---
 title: VisionScript Documentation
 layout: default.njk
+breadcrumbs: true
 ---
 
 <script type="application/ld+json">
@@ -24,20 +25,15 @@ layout: default.njk
 }
 </script>
 
-<div class="breadcrumbs">
-    <a href="https://visionscript.dev/docs/">VisionScript Documentation</a> &gt; {{ title }}
-</div>
-
-<h1 class="p-name">{{ title }}</h1>
 <p class="p-summary">{{ definition }}</p>
 <div class="e-content">
 {{ content | safe }}
 </div>
 <h2>See Also</h2>
 <ul>
-    {% for page in collections.std %}
-        {% if page.data.title != title %}
-            <li><p><a href="{{ page.url }}">{{ page.data.title }}</a></p></li>
+    {% for p in collections.std %}
+        {% if p.data.tags[1] == tags[1] %}
+            <li><a href="{{ p.url }}">{{ p.data.title }}</a></li>
         {% endif %}
     {% endfor %}
 </ul>
