@@ -25,6 +25,9 @@ nomain: true
 </div>
 
 <main class="h-entry">
+    <h2 id="demo">See VisionScript in Action</h2>
+    <div style="position: relative; height: 300px; width: 100%;"><iframe src="https://player.vimeo.com/video/856043804?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VisionScript Building Powerful Applications with Images and Videos"></iframe></div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
     <h2 id="install">Install VisionScript</h2>
 
     <p>The latest version of VisionScript is <a href="https://pypi.org/project/visionscript/">0.0.5</a>.</p>
