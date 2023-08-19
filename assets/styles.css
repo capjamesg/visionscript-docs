@@ -245,6 +245,13 @@ nav button {
 .side_by_side div:first-child {
     padding-right: 20px;
 }
+.callout {
+    background-color: #ffe83c;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
 @media screen and (max-width: 600px) {
     .side_by_side {
         flex-direction: column;
