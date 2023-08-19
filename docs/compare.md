@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Output
+signatures:
+    - Compare[]
 ---
 
 If you have called `Detect[]` or `Segment[]`, the respective bounding boxes or masks will be shown on the image.

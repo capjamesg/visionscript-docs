@@ -6,6 +6,9 @@ works_in_notebook: true
 tags:
     - std
     - Process
+signatures:
+    - Replace[]
+    - Replace["color"]
 ---
 
 ### Syntax

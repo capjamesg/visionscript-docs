@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Logic
+signatures:
+    - Read[]
 ---
 
 When writing an `if` statement, you may want to use a value from a previous computation.

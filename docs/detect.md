@@ -5,11 +5,14 @@ layout: std.njk
 tags:
     - std
     - Find
+signatures:
+    - Detect[]
+    - Detect["string"]
 ---
 
 Detect[] uses a zero-shot model which means you can specify any class you like.
 
-<div class="note">
+<div class="callout info">
 <p>The model behind Detect[] will be downloaded automatically the first time you use it on your computer. This can take a few minutes depending on your internet connection.</p>
 </div>
 

@@ -6,6 +6,8 @@ works_in_notebook: false
 tags:
     - std
     - Logic
+signatures:
+    - Make functionname []
 ---
 
 ### Syntax
@@ -13,7 +15,7 @@ tags:
 #### Declaration
 
 ```
-Make showgreyscale
+Make showgreyscale []
     ...
 ```
 

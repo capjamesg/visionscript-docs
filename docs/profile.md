@@ -6,6 +6,8 @@ works_in_notebook: false
 tags:
     - std
     - Process
+signatures:
+    - Profile[]
 ---
 
 `Profile[]` groups run time by function rather than documenting the length of individual function calls.

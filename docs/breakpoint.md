@@ -6,6 +6,8 @@ works_in_notebook: false
 tags:
     - std
     - Logic
+signatures:
+    - Breakpoint[]
 ---
 
 ### Syntax

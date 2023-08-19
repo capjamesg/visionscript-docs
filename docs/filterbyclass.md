@@ -6,6 +6,10 @@ works_in_notebook: true
 tags:
     - std
     - Process
+signatures:
+    - FilterByClass[]
+    - FilterByClass["class"]
+    - FilterByClass["class1", "class2", ...]
 ---
 
 You can set a class filter before or after you run `Detect[]` or `Segment[]`. By default, no classes are filtered.

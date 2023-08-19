@@ -6,10 +6,12 @@ works_in_notebook: true
 tags:
     - std
     - Find
+signatures:
+    - Caption[]
 ---
 
-<div class="note">
-<p>The model behind Detect[] will be downloaded automatically the first time you use it on your computer. This can take a few minutes depending on your internet connection.</p>
+<div class="callout info">
+<p>The model behind Caption[] will be downloaded automatically the first time you use it on your computer. This can take a few minutes depending on your internet connection.</p>
 </div>
 
 ### Syntax

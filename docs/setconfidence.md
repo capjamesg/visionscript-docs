@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Process
+signatures:
+    - SetConfidence[percentage]
 ---
 
 You can set the confidence threshold before or after you run `Detect[]` or `Segment[]`. The default confidence value is 50%.

@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Logic
+signatures:
+    - Select[integer]
 ---
 
 ### Syntax

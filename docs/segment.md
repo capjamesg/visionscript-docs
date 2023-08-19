@@ -6,11 +6,14 @@ works_in_notebook: true
 tags:
     - std
     - Find
+signatures:
+    - Segment[]
+    - Segment["string"]
 ---
 
 Segment[] uses a zero-shot model which means you can specify any class you like.
 
-<div class="note">
+<div class="callout info">
 <p>The model behind Segment[] will be downloaded automatically the first time you use it on your computer. This can take a few minutes depending on your internet connection.</p>
 </div>
 
@@ -23,7 +26,7 @@ Segment["person"]
 
 ### Arguments
 
-- `class` - The class to detect.
+- `class` - The class to detect. If no class is specified, all objects will be segmented.
 
 ### Examples
 

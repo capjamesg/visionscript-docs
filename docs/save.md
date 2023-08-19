@@ -6,17 +6,21 @@ works_in_notebook: true
 tags:
     - std
     - Output
+signatures:
+    - Save["image.png"]
+    - Save["predictions.csv"]
 ---
 
 You can save two types of data to a file:
 
 1. An image
-2. Detections from Detect[] or Segment[]
+2. Detections from Detect[] or Segment[] as a CSV
 
 ### Syntax
 
 ```
-Save["filename"]
+Save["image.png"]
+Save["predictions.csv"]
 ```
 
 ### Arguments

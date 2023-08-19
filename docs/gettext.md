@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Find
+signatures:
+    - GetText[]
 ---
 
 ### Syntax

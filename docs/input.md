@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Deploy
+signatures:
+    - Input["string"]
 ---
 
 Inputs let you accept image or text input from a user.

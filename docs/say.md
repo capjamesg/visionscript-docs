@@ -7,8 +7,8 @@ tags:
     - std
     - Output
 signatures:
-    - string
-    - expr
+    - Say[]
+    - Say["string"]
 ---
 
 ### Syntax

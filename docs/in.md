@@ -1,11 +1,14 @@
 ---
 title: In[]
-definition: Iterate over all images in a folder.
+definition: Iterate over all images in a folder or frames in a video.
 layout: std.njk
 works_in_notebook: true
 tags:
     - std
     - Logic
+signatures:
+    - In["./folder"]
+    - In["./video.mov]
 ---
 
 ### Syntax

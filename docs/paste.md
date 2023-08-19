@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Process
+signatures:
+    - Paste[x, y]
 ---
 
 ### Syntax

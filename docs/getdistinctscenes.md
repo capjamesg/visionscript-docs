@@ -6,6 +6,8 @@ works_in_notebook: true
 tags:
     - std
     - Output
+signatures:
+    - GetDistinctScenes[]
 ---
 
 You can only use this function after you have used `In["video.mov"]` on a video and applied a `Classify[]` operation to each frame.

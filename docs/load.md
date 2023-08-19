@@ -6,6 +6,10 @@ works_in_notebook: true
 tags:
     - std
     - Input
+signatures:
+    - Load["./photo.png"]
+    - Load["https://example.com/photo.jpg"]
+    - Load["./folder/"]
 ---
 
 ### Examples

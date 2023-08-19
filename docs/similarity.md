@@ -6,6 +6,9 @@ works_in_notebook: true
 tags:
     - std
     - Find
+signatures:
+    - Similarity[]
+    - Similarity[integer]
 ---
 
 ### Syntax
