@@ -23,7 +23,7 @@ Find all the cats in an image, turn them blue, describe what's in an image, sear
 
 ## Principles
 
-VisualScript is designed with the following principles in mind:
+VisionScript is designed with the following principles in mind:
 
 1. You should be able to state what you want to do common computer vision tasks without having to worry about plumbing and low-level programming;
 2. You should only write the code you absolutely need to write;
@@ -42,6 +42,6 @@ If you like the logic-based side of VisionScript, we recommend researching the W
 
 ## Limitations
 
-There is one big limitation with VisualScript: the compute resources required to use image prediction features. The language itself runs with minimal overhead, but when you start to run inference compute requirements grow.
+There is one big limitation with VisionScript: the compute resources required to use image prediction features. The language itself runs with minimal overhead, but when you start to run inference compute requirements grow.
 
 At present, the language requires a minimum of 8 GB of RAM to use detection, segmentation, and classification models. Further, VisionScript would require installation of the Windows Subsystem for Linux for use on Windows machines, a limitation for a number of potential users.
