@@ -2,6 +2,7 @@
 title: GetFPS[]
 definition: Get the FPS of a video or video stream.
 layout: std.njk
+works_in_notebook: false
 tags:
     - std
     - Output
@@ -9,13 +10,16 @@ tags:
 
 ### Syntax
 
-```GetFPS[]
 ```
+GetFPS[]
+```
+
 ### Examples
 
 The following example loads a webcam, gets the webcam stream FPS, writes the FPS to the top left corner of the image, and displays the resultant image:
 
-```UseCamera[]
+```
+UseCamera[]
     GetFPS[]
     Read[]
     WriteText[]

@@ -2,6 +2,7 @@
 title: GetText[]
 definition: Retrieve text in an image
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Find
@@ -9,13 +10,16 @@ tags:
 
 ### Syntax
 
-```GetText[]
 ```
+GetText[]
+```
+
 ### Examples
 
 The following example loads an image, retrieves the text, and displays it.
 
-```Load["./photo.jpg"]
+```
+Load["./photo.jpg"]
 GetText[]
 Say[]
 ```

@@ -36,11 +36,22 @@ header {
 main {
     padding-top: 0;
 }
+main ul li {
+    margin-bottom: 0.5rem;
+}
+.link_button {
+    background-color: darkgreen;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
 pre {
-    background-color: #eee;
+    background-color: #636363;
     padding: 1rem;
     border-radius: 0.5rem;
-    white-space: pre-line;
+    white-space: pre-wrap;
 }
 nav {
     background-color: darkgreen;
@@ -146,6 +157,12 @@ code {
     padding: 0.1rem 0.3rem;
     border-radius: 0.3rem;
 }
+pre code {
+    background-color: #636363;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
+    white-space: pre-wrap;
+}
 .breadcrumbs a {
     color: darkgreen;
 }
@@ -220,17 +237,38 @@ nav button {
 .Input {
     background-color: #a2d2ff;
 }
+[class~="keyword.input.vic"] {
+    color: #a2d2ff;
+}
 .Process {
     background-color: #cdb4db;
+}
+[class~="keyword.process.vic"] {
+    color: #cdb4db;
 }
 .Find {
     background-color: #ccd5ae;
 }
+[class~="keyword.find.vic"] {
+    color: #ccd5ae;
+}
 .Output {
     background-color: lavender;
 }
+[class~="keyword.output.vic"] {
+    color: lavender;
+}
 .Logic {
     background-color: #ffdf6b;
+}
+[class~="keyword.logic.vic"] {
+    color: #ffdf6b;
+}
+[class~="string.quoted.double.vic"] {
+    color: #ffdf6b;
+}
+[class~="constant.numeric.vic"] {
+    color: #ffdf6b;
 }
 .badge {
     padding: 0.5rem;
@@ -251,6 +289,23 @@ nav button {
     border-radius: 0.5rem;
     border: 1px solid #ccc;
     margin-bottom: 1rem;
+}
+.info {
+    background-color: #a2d2ff;
+}
+.copy_button {
+    background-color: darkgreen;
+    float: right;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.tooltip {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
 }
 @media screen and (max-width: 600px) {
     .side_by_side {

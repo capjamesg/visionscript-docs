@@ -2,6 +2,7 @@
 title: Say[]
 definition: Say a message
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Output
@@ -12,9 +13,11 @@ signatures:
 
 ### Syntax
 
-```Say[]
+```
+Say[]
 Say["Hello, world!"]
 ```
+
 ### Arguments
 
 - `message` - The message to say.
@@ -23,7 +26,8 @@ Say["Hello, world!"]
 
 The following example runs inference on an image and prints the results.
 
-```Load["./photo.jpg"]
+```
+Load["./photo.jpg"]
 Detect["person"]
 Say[]
 ```

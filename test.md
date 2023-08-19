@@ -7,16 +7,20 @@ The `Test[]` method in the VisionScript standard library provides a method for t
 
 To test a program, first import the `Test` module:
 
-```import["Test"]
 ```
+Import["Test"]
+```
+
 To write a test, use the `Test[]` method.
 
 In the following script, we test that the number of cats in a provided image is greater than 3:
 
-```Detect["./cats.jpg"]
+```
+Detect["./cats.jpg"]
 Count[]
 Test[Count[] > 3]
 ```
+
 Tests are counted in two global values:
 
 - `PassedTests`: The number of tests that have passed.
@@ -24,7 +28,8 @@ Tests are counted in two global values:
 
 To read the number of passed and failed tests, use the `PassedTests` and `FailedTests` methods:
 
-```Say["Passed tests:"]
+```
+Say["Passed tests:"]
 Say[PassedTests[]]
 
 Say["Failed tests:"]

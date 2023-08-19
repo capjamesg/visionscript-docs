@@ -2,6 +2,7 @@
 title: Rotate[]
 definition: Rotate an image
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Process
@@ -9,8 +10,10 @@ tags:
 
 ### Syntax
 
-```Rotate[90]
 ```
+Rotate[90]
+```
+
 ### Arguments
 
 - `angle` - The angle to rotate the image by, in degrees.
@@ -19,7 +22,8 @@ tags:
 
 The following example loads an image, rotates it by 90 degrees, and displays it.
 
-```Load["./photo.jpg"]
+```
+Load["./photo.jpg"]
 Rotate[90]
 Show[]
 ```

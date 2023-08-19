@@ -1,3 +1,5 @@
+![The VisionScript home page](/assets/home.png)
+
 # VisualScript Documentation
 
 Official documentation for [VisualScript](https://visualscript.dev).

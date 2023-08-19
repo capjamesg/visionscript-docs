@@ -62,13 +62,22 @@
                 </div>
             {% endif %}
             <header>
-                {% if works_in_notebook %}
+                {% if works_in_notebook == true %}
+                    <div class="side_by_side" style="margin: 0; border-bottom: 1px solid #ccc;">
+                        <h1 style="border-bottom: 0; margin-bottom: 0">{{ title }}</h1>
+                        <div class="badge" style="background-color: darkgreen; color: white; border: none;">
+                            ✅ Works in Interactive Notebook
+                        </div>
+                    </div>
+                    <p>Category: <a href="/docs#{{ tags[1].replace(' ', '_') }}" class="{{ tags[1].replace(' ', '_') }}">{{ tags[1] }}</a>.</p>
+                {% elif works_in_notebook == false %}
                     <div class="side_by_side" style="margin: 0; border-bottom: 1px solid #ccc;">
                         <h1 style="border-bottom: 0; margin-bottom: 0">{{ title }}</h1>
                         <div class="badge">
-                            ✅ Works in Notebook
+                            ❌ Doesn't work in Interactive Notebook
                         </div>
                     </div>
+                    <p>Category: <a href="/docs#{{ tags[1].replace(' ', '_') }}" class="{{ tags[1].replace(' ', '_') }}">{{ tags[1] }}</a>.</p>
                 {% else %}
                     <h1>{{ title }}</h1>
                 {% endif %}
@@ -103,6 +112,7 @@
                 <ul>
                     <li><a href="/notebook_howto">VisionScript Notebooks</a></li>
                     <li><a href="/vscode">VS Code Extension</a></li>
+                    <li><a href="/style">Style Guide</a>
                     <li><a href="/debug">Debug Code</a></li>
                     <li><a href="/about">About VisionScript</a></li>
                     <li><a href="/branding">Branding</a></li>
@@ -113,4 +123,43 @@
         </footer>
         <p id="attribution">Made with ❤️ by <a href="https://jamesg.blog">capjamesg</a></p>
     </body>
+    <script src="/assets/visionscript-highlight.js"></script>
+    <script>
+        // add copy to clipboard to all <pre> tags
+        var pres = document.getElementsByTagName("pre");
+
+        for (var i = 0; i < pres.length; i++) {
+            var pre = pres[i];
+            var button = document.createElement("button");
+            button.innerHTML = "<i class='fas fa-copy'></i> Copy code";
+            button.className = "copy_button";
+            // copy to clipboard
+            button.onclick = function() {
+                var code = pre.innerText;
+                // remove "Copied!" text
+                code = code.replace("Copy code", "");
+                // strip whitespace
+                code = code.trim();
+
+                navigator.clipboard.writeText(code);
+                // show "copied!" tooltip
+                var tooltip = document.createElement("span");
+                tooltip.innerHTML = "<i class='fas fa-check'></i> Copied!";
+                tooltip.className = "tooltip";
+                tooltip.style.top = this.offsetTop - 40 + "px";
+                tooltip.style.left = this.offsetLeft + "px";
+                tooltip.style.position = "absolute";
+                tooltip.style.maxWidth = "150px";
+                tooltip.style.padding = "5px";
+                // show above button
+                this.parentElement.insertBefore(tooltip, this);
+                // remove tooltip after 1 second
+                setTimeout(function() {
+                    tooltip.remove();
+                }, 1000);
+            }
+            // append before text
+            pre.insertBefore(button, pre.firstChild);
+        }
+    </script>
 </html>

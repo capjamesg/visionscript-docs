@@ -4,8 +4,7 @@ layout: default.njk
 ---
 
 <div class="callout">
-    <i class="fas fa-info-circle"></i>
-    <p>This article documents an advanced feature of VisionScript that is not necessary for most users.</p>
+    <p><i class="fas fa-info-circle"></i>This article documents an advanced feature of VisionScript that is not necessary for most users.</p>
 </div>
 
 VisionScript features a built-in debugger for understanding how your code works and finding the source of errors.
@@ -14,22 +13,28 @@ The debugger triggers when a [Breakpoint[]](/docs/breakpoint) runs in a program.
 
 To debug a program, first add a breakpoint to your script:
 
-```Load["./image.jpg"]
+```
+Load["./image.jpg"]
 Detect["cat"]
 Count[]
 Breakpoint[]
 Say[]
 ```
+
 Then, run your program:
 
-```visionscript program.vic
 ```
+visionscript program.vic
+```
+
 When your program reaches the breakpoint, the debugger will trigger.
 
 The debugger looks like this:
 
-```[n,p,q,s,r,h] VisionScript Debug Mode >
 ```
+[n,p,q,s,r,h] VisionScript Debug Mode >
+```
+
 ![The VisionScript debugger](/assets/debug.png)
 
 The letters at the beginning are commands, which mean:

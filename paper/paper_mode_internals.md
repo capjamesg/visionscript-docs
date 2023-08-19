@@ -8,10 +8,12 @@ permalink: /paper/internals
 
 Under the hood, Paper Mode is powered by three lines of VisionScript:
 
-```Load["image.jpg"]
+```
+Load["image.jpg"]
 GetText[]
 Say[]
 ```
+
 This program:
 
 1. Loads an image from a file;

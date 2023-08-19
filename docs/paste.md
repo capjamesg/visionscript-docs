@@ -2,6 +2,7 @@
 title: Paste[]
 definition: Paste the last item on the stack to an x,y coordinate.
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Process
@@ -9,8 +10,10 @@ tags:
 
 ### Syntax
 
-```Paste[x, y]
 ```
+Paste[x, y]
+```
+
 ### Arguments
 
 - `x` - The x position to start pasting the image.
@@ -22,7 +25,8 @@ The following example cuts out the first cat in an image then pastes it in the t
 
 This function is applied to all images in a folder.
 
-```Load["./image.jpg"]
+```
+Load["./image.jpg"]
 Detect["cat"]
 Get[1]
 Cutout[]

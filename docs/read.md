@@ -2,6 +2,7 @@
 title: Read[]
 definition: Read the value at the top of the stack. Used in if statement conditionals.
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Logic
@@ -13,13 +14,16 @@ To do so, you need to use `Read[]` to retrieve the last computed value before an
 
 ### Syntax
 
-```Read[]
 ```
+Read[]
+```
+
 ### Examples
 
 The following example loads an image, reads the text in the image, and shows the image if it contains "tea".
 
-```Load["./photo.jpg"]
+```
+Load["./photo.jpg"]
 GetText[]
 If[Read[] == "tea"]
     Show[]

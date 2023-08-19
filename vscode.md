@@ -13,6 +13,8 @@ This extension will:
 2. Show documentation for a method when you hover over it with your cursor.
 2. Show code signatures for methods.
 
+<a href="https://marketplace.visualstudio.com/items?itemName=VisionScript.visionscript" class="link_button"><i class="fas fa-download"></i> Install the extension</a>
+
 ## Installation
 
 To install the extension:

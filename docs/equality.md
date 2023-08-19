@@ -2,6 +2,7 @@
 title: Equality (==, !=)
 definition: Test for equality or inequality between two values.
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Logic
@@ -9,9 +10,11 @@ tags:
 
 ### Syntax
 
-```x == y
+```
+x == y
 x != y
 ```
+
 ### Arguments
 
 - `x` - The first statement to evaluate
@@ -21,7 +24,8 @@ x != y
 
 The following example loads an image, reads the text in the image, and shows the image if it contains "tea".
 
-```Load["./photo.jpg"]
+```
+Load["./photo.jpg"]
 GetText[]
 If[Read[] == "tea"]
     Show[]

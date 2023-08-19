@@ -2,7 +2,7 @@
 title: Breakpoint[]
 definition: Pause program runtime and start a debugging session.
 layout: std.njk
-available_in_notebook: true
+works_in_notebook: false
 tags:
     - std
     - Logic
@@ -10,13 +10,16 @@ tags:
 
 ### Syntax
 
-```Breakpoint[]
 ```
+Breakpoint[]
+```
+
 ### Examples
 
 The following example loads an image, then detects cats in the image. A breakpoint runs which starts an interactive [debugging session](/debugging). Once exiting from the debugging session, the program continues to run.
 
-```Load["./image.jpg"]
+```
+Load["./image.jpg"]
 Detect["cat"]
 Breakpoint[]
 If[Count[] > 4]

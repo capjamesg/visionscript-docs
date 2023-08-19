@@ -5,7 +5,7 @@ layout: default.njk
 
 Functions available in the VisionScript language.
 
-<h2>Input</h2>
+<h2 id="Input">Input</h2>
 
 <ul class="language_list">
     {% for page in collections.std %}
@@ -20,7 +20,7 @@ Functions available in the VisionScript language.
     {% endfor %}
 </ul>
 
-<h2>Process</h2>
+<h2 id="Process">Process</h2>
 
 <ul class="language_list">
     {% for page in collections.std %}
@@ -35,7 +35,7 @@ Functions available in the VisionScript language.
     {% endfor %}
 </ul>
 
-<h2>Find</h2>
+<h2 id="Find">Find</h2>
 
 <ul class="language_list">
     {% for page in collections.std %}
@@ -50,7 +50,7 @@ Functions available in the VisionScript language.
     {% endfor %}
 </ul>
 
-<h2>Output</h2>
+<h2 id="Output">Output</h2>
 
 <ul class="language_list">
     {% for page in collections.std %}
@@ -65,7 +65,7 @@ Functions available in the VisionScript language.
     {% endfor %}
 </ul>
 
-<h2>Logic</h2>
+<h2 id="Logic">Logic</h2>
 
 <ul class="language_list">
     {% for page in collections.std %}
@@ -80,7 +80,7 @@ Functions available in the VisionScript language.
     {% endfor %}
 </ul>
 
-<h2>Deploy</h2>
+<h2 id="Deploy">Deploy</h2>
 
 <ul class="language_list">
     {% for page in collections.std %}

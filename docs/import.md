@@ -2,6 +2,7 @@
 title: Import[]
 definition: Import a .vic file.
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Logic
@@ -9,8 +10,10 @@ tags:
 
 ### Syntax
 
-```Import["./file.vic"]
 ```
+Import["./file.vic"]
+```
+
 ### Arguments
 
 - `path` - The path to the .vic file to import.
@@ -19,7 +22,8 @@ tags:
 
 The following example laods a .vic file and calls a function within it:
 
-```Import["./counter.vic]
+```
+Import["./counter.vic]
 
 countcars
 Say[]

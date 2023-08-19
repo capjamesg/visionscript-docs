@@ -2,6 +2,7 @@
 title: Input[]
 definition: Get user input.
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Deploy
@@ -15,8 +16,10 @@ If a script contains an `Input[]`, it cannot be executed as a VisionScript scrip
 
 ### Syntax
 
-```Input["Form Name"]
 ```
+Input["Form Name"]
+```
+
 ### Arguments
 
 - `Form Name`: A unique identifier for the input. This will be shown as the form name in VisionScript Cloud deployments.
@@ -25,7 +28,8 @@ If a script contains an `Input[]`, it cannot be executed as a VisionScript scrip
 
 The following example asks a user to provide an imagei and will classify whether the image is a cat or a dog. The text response is then displayed.
 
-```Load[Input[]]
+```
+Load[Input[]]
 Classify["cat", "dog"]
 Show[]
 ```

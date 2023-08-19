@@ -2,6 +2,7 @@
 title: SetRegion[]
 definition: Filter detections by region.
 layout: std.njk
+works_in_notebook: true
 tags:
     - std
     - Input
@@ -11,8 +12,10 @@ SetRegion[] must be called before Detect[] or Segment[] to filter detections by 
 
 ### Syntax
 
-```SetRegion[x, y, width, height]
 ```
+SetRegion[x, y, width, height]
+```
+
 ### Arguments
 
 - `x`, `y` - The x and y coordinates of the top left corner of the region.
@@ -24,7 +27,8 @@ The following example loads an image and sets the region in which detections mus
 
 The region is the top left quadrant of the image, assuming the image is 500x500 pixels.
 
-```Load["./photo.jpg"]
+```
+Load["./photo.jpg"]
 SetRegion[0, 0, 250, 250]
 Detect["solar panel"]
 Show[]
