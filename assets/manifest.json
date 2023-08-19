@@ -10,7 +10,7 @@
     "description": "VisionScript documentation.",
     "icons": [
         {
-            "src": "https://visionscript.org/assets/logo.svg",
+            "src": "https://visionscript.dev/assets/logo.svg",
             "sizes": "any",
             "type": "image/png"
         }
