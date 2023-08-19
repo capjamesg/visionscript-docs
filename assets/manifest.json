@@ -7,5 +7,12 @@
     "display": "standalone",
     "scope": "/",
     "theme_color": "darkgreen",
-    "description": "VisionScript documentation."
+    "description": "VisionScript documentation.",
+    "icons": [
+        {
+            "src": "https://visionscript.org/images/logo.svg",
+            "sizes": "any",
+            "type": "image/png"
+        }
+    ]
 }
