@@ -4,6 +4,7 @@ layout: default.njk
 ---
 
 <div class="callout">
+    <i class="fas fa-info-circle"></i>
     <p>This article documents an advanced feature of VisionScript that is not necessary for most users.</p>
 </div>
 
