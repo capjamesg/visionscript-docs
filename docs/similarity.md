@@ -9,11 +9,9 @@ tags:
 
 ### Syntax
 
-```
-Similarity[]
+```Similarity[]
 Similarity[3]
 ```
-
 ### Arguments
 
 - `n` - The number of images to compare. Defaults to 2.
@@ -22,8 +20,7 @@ Similarity[3]
 
 The following example loads two images, compares them, and displays a similarity score.
 
-```
-Load["./photo.jpg"]
+```Load["./photo.jpg"]
 Load["./photo1.jpg"]
 Similarity[]
 Say[]

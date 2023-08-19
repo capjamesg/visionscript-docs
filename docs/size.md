@@ -9,16 +9,13 @@ tags:
 
 ### Syntax
 
+```Size[]
 ```
-Size[]
-```
-
 ### Examples
 
 The following example loads a folder of images. The code displays each image in the folder, then prints out the size of each image to the console.
 
-```
-In["./folder/"]
+```In["./folder/"]
     Load[]
     Show[]
     Size[]

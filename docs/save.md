@@ -14,18 +14,15 @@ You can save two types of data to a file:
 
 ### Syntax
 
+```Save["filename"]
 ```
-Save["filename"]
-```
-
 ### Arguments
 
 - `filename` - The name of the file to save the image or detections to. Use `.csv` as the file extension to save detections. Use `.jpg` or `.png` to save an image.
 
 ### Examples
 
-```
-Load["./photo.jpg"]
+```Load["./photo.jpg"]
 Detect["people"]
 Save["./photo_with_detections.jpg"]
 ```

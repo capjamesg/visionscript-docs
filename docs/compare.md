@@ -11,16 +11,13 @@ If you have called `Detect[]` or `Segment[]`, the respective bounding boxes or m
 
 ### Syntax
 
+```Compare[]
 ```
-Compare[]
-```
-
 ### Examples
 
 In this example, two images are loaded and displayed size-by-side for comparison.
 
-```
-Load["./photo.jpg"]
+```Load["./photo.jpg"]
 Load["./photo1.jpg"]
 Compare[]
 ```

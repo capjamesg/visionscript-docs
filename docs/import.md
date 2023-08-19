@@ -9,10 +9,8 @@ tags:
 
 ### Syntax
 
+```Import["./file.vic"]
 ```
-Import["./file.vic"]
-```
-
 ### Arguments
 
 - `path` - The path to the .vic file to import.
@@ -21,8 +19,7 @@ Import["./file.vic"]
 
 The following example laods a .vic file and calls a function within it:
 
-```
-Import["./counter.vic]
+```Import["./counter.vic]
 
 countcars
 Say[]

@@ -11,16 +11,13 @@ tags:
 
 ### Syntax
 
+```Profile[]
 ```
-Profile[]
-```
-
 ### Examples
 
 The following code prints a statement saying how many cats are in an image if a cat is found in an image:
 
-```
-Profile[]
+```Profile[]
 
 Load["./garden.jpg"]
 Detect["cat"]
@@ -31,13 +28,11 @@ End
 
 Say[]
 ```
-
 The code starts with a `Profile[]` statement, which enables the profiler.
 
 This code runs and then shows the following information:
 
-```
---------------------
+```--------------------
 Profile:
 --------------------
 detect : 5.28s
@@ -51,5 +46,4 @@ if : 0.00s
 make : 0.00s
 Total run time: 5.28s
 ```
-
 Here, we can see program execution time as well as the time spent to run each function type.

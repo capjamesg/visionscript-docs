@@ -13,34 +13,24 @@ layout: default.njk
 
 To install `viclint`, run the following command:
 
+```pip install viclint
 ```
-pip install viclint
-```
-
 To run `viclint`, use the following command:
 
+```viclint program.vic
 ```
-viclint program.vic
-```
-
 To run `viclint` on a folder of VisionScript files, use the following command:
 
+```viclint folder/
 ```
-viclint folder/
-```
-
 If linting succeeds, you will see the following message:
 
+```✨ {file} is now prettier! ✨
 ```
-✨ {file} is now prettier! ✨
-```
-
 If linting fails for any reason, you will see the following message:
 
+```🚨 {file} failed to lint. 🚨
 ```
-🚨 {file} failed to lint. 🚨
-```
-
 ## See Also
 
 - [viclint GitHub repository](https://github.com/capjamesg/viclint)

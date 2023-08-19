@@ -15,11 +15,9 @@ Detect[] uses a zero-shot model which means you can specify any class you like.
 
 ### Syntax
 
-```
-Detect[]
+```Detect[]
 Detect["person"]
 ```
-
 ### Arguments
 
 - `class` - The class to detect.
@@ -28,12 +26,10 @@ Detect["person"]
 
 The following example loads an image, runs inference to find all objects matching the "person" class, and displays the results.
 
-```
-Load["./photo.jpg"]
+```Load["./photo.jpg"]
 Detect["person"]
 Show[]
 ```
-
 ### Supported Models
 
 - [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO)

@@ -9,19 +9,16 @@ tags:
 
 ### Syntax
 
-```
-In["./folder/"]
+```In["./folder/"]
     ...
     If[...]
         Break[]
 ```
-
 ### Examples
 
 The following example loads a folder of images, looks for a cat in each image, and exits the loop if more than three cats were found in an image:
 
-```
-In["./folder/"]
+```In["./folder/"]
     Load[]
     Detect["cat"]
     If[Count[] > 3]

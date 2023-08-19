@@ -9,19 +9,16 @@ tags:
 
 ### Syntax
 
-```
-UseCamera[]
+```UseCamera[]
     ...
 ```
-
 Where `...` is the code you want to run on each frame in the image.
 
 ### Examples
 
 The following example loads a webcam, turns each frame greyscale, and shows the resultant frame:
 
-```
-UseCamera[]
+```UseCamera[]
     Greyscale[]
     Show[]
 ```

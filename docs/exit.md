@@ -9,6 +9,5 @@ tags:
 
 ### Syntax
 
-```
-Exit[]
+```Exit[]
 ```

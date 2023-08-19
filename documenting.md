@@ -11,18 +11,15 @@ To write comments in VisionScript code, start a new line and add a `#` symbol. T
 
 Here is an example:
 
-```
-Load["./garden.jpg"]
+```Load["./garden.jpg"]
 # we are detecting in the bottom region because
 # the top region does not show the garden
 DetectInRegion["bottom"]
 Count[]
 ```
-
 We recommend documenting all of the custom functions you write in your code like this:
 
-```
-Make rundetection[]
+```Make rundetection[]
     # look for cats
     # if a cat is found, save the location of the cat
     # to a CSV file
@@ -31,23 +28,18 @@ Make rundetection[]
         Save["./cats.csv"]
     End
 ```
-
 ## Creating Shareable Documentation
 
 You can use the `vicdocs` tool to generate shareable documentation. This tool will create a HTML document that you can publish with a description of your code.
 
 You will need to install the `vicdocs` tool with `pip`:
 
+```pip install vicdocs
 ```
-pip install vicdocs
-```
-
 Once you have installed `vicdocs`, you can run it on any `.vic` file:
 
+```vicdocs program.vic
 ```
-vicdocs program.vic
-```
-
 This will create a folder called `program/`, where `program` is the name of your `.vic` file. Inside this folder, you will find a `index.html` file that you can open in your browser.
 
 [View an example of a documentation page generated with `vicdocs`](https://visionscript.org/vicdocs-example/).

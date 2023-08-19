@@ -15,10 +15,8 @@ Classify[] uses a zero-shot model which means you can specify any class you like
 
 ### Syntax
 
+```Classify["cat", "dog"]
 ```
-Classify["cat", "dog"]
-```
-
 ### Arguments
 
 - An arbitrary number of `class` arguments that specify the labels to use in classification.
@@ -27,12 +25,10 @@ Classify["cat", "dog"]
 
 The following example loads an image, classifies if the image is a cat or a dog, and displays the results.
 
-```
-Load["./tmp/cat.jpg"]
+```Load["./tmp/cat.jpg"]
 Classify["cat", "dog"]
 Show[]
 ```
-
 ![A photo of a cat classified as a cat](/assets/classify.png)
 
 ### Supported Models

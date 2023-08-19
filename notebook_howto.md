@@ -60,10 +60,8 @@ To run a program, click `Run All` in the top right corner of the page:
 
 Our program has run successfully. The result of our program is the text that appears at the bottom of the drag-and-drop section on the page. In this case, our program generated the following response:
 
+```Add text
 ```
-Add text
-```
-
 ## Writing a Program in Code Mode
 
 Code Mode lets you write VisionScript programs by typing out code.
@@ -85,11 +83,9 @@ Let's write a program that loads an image. We can use a `Load[]` statement to lo
 
 Let's find all of the people in the image. We can do so using this code:
 
-```
-Detect["person"]
+```Detect["person"]
 Show[]
 ```
-
 After running this code, a new cell is created with the output from our code:
 
 Our code successfully returned an image with boxes around people in the image.

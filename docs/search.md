@@ -9,10 +9,8 @@ tags:
 
 ### Syntax
 
+```Search["query"]
 ```
-Search["query"]
-```
-
 ### Arguments
 
 - `query` - The text query.
@@ -21,8 +19,7 @@ Search["query"]
 
 The following example loads a folder of images, searches for images related to a plane, and displays the images ordered by relevance in descending order.
 
-```
-In["./folder/"]
+```In["./folder/"]
     Load[]
 
 Search["plane"]

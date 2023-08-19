@@ -11,17 +11,13 @@ tags:
 
 #### Declaration
 
-```
-Make showgreyscale
+```Make showgreyscale
     ...
 ```
-
 #### Call
 
+```showgreyscale[]
 ```
-showgreyscale[]
-```
-
 ### Arguments
 
 - `name` - The name of the function.
@@ -33,8 +29,7 @@ The following example declares a function that converts an image to greyscale an
 
 This function is applied to all images in a folder.
 
-```
-Make showgreyscale
+```Make showgreyscale
     Greyscale[]
     Show[]
 

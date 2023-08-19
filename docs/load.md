@@ -9,12 +9,10 @@ tags:
 
 ### Examples
 
-```
-Load["./photo.jpg"]
+```Load["./photo.jpg"]
 Load["https://example.com/photo.jpg"]
 Load["./folder/"]
 ```
-
 ### Arguments
 
 - `path` - The path to the image or folder to load.
@@ -23,7 +21,6 @@ Load["./folder/"]
 
 The following example loads an image and displays it.
 
-```
-Load["./photo.jpg"]
+```Load["./photo.jpg"]
 Show[]
 ```

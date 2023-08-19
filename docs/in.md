@@ -9,11 +9,9 @@ tags:
 
 ### Syntax
 
-```
-In["./folder/"]
+```In["./folder/"]
     ...
 ```
-
 ### Arguments
 
 - `query` - The text query.
@@ -23,8 +21,7 @@ In["./folder/"]
 
 The following example loads a folder of images, searches for images related to a plane, and displays the images ordered by relevance in descending order.
 
-```
-In["./folder/"]
+```In["./folder/"]
     Load[]
 
 Search["plane"]

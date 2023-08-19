@@ -16,22 +16,16 @@ VisionScript comes with an interactive deployment tool out-of-the-box in VisionS
 
 To deploy a VisionScript app, first run VisionScript Notebook, the software through which you can create an interactive application. You can run VisionScript Notebook using the following code:
 
+```visionscript --notebook
 ```
-visionscript --notebook
-```
-
 You will also need to start VisionScript Cloud, a web tool that lets you run VisionScript programs as web pages and via an API:
 
+```visionscript --cloud
 ```
-visionscript --cloud
-```
-
 When VisionScript Cloud starts, a message will appear with your API key:
 
+```Your API key is [API_KEY]
 ```
-Your API key is [API_KEY]
-```
-
 Take a note of your API key, as you will need it later.
 
 Next, write your program in the notebook:
@@ -51,10 +45,8 @@ You will be asked to provide:
 
 By default, your VisionScript Cloud URL will be:
 
+```http://localhost:6999
 ```
-http://localhost:6999
-```
-
 Your API key is the key you were given when you started the VisionScript Cloud server.
 
 After you have filled out the required information, click "Submit" in the deployment pop up in your notebook. A message will appear with the URL of your deployed application. If something went wrong during deployment, a message will appear explaining the issue.
@@ -63,16 +55,12 @@ After you have filled out the required information, click "Submit" in the deploy
 
 First, start VisionScript Cloud, a web tool that lets you run VisionScript programs as web pages and via an API:
 
+```visionscript --cloud
 ```
-visionscript --cloud
-```
-
 You can deploy a `.vic` file using the following command:
 
+```visionscript --deploy --file=./filename.vic --name="App name" --description=="App description"
 ```
-visionscript --deploy --file=./filename.vic --name="App name" --description=="App description"
-```
-
 Replace the `file`, `name`, and `description` values as appropriate.
 
 This command will return the URL to your deployed application. If something went wrong during deployment, a message will appear explaining the issue.
