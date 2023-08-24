@@ -8,7 +8,7 @@ tags:
     - Output
 signatures:
     - Web["url"]
-    - "Web["url", {\"item1\":\ \"item2\"}]"
+    - "Web["url", associative_array]"
 ---
 
 ### Syntax
