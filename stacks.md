@@ -1,4 +1,7 @@
-# Behind Implicit State: Stacks
+---
+title: "Behind Implicit State: Stacks"
+layout: default.njk
+---
 
 VisionScript embraces implicit state. This means that a programmer does not explicitly specify how pieces of data should work together.
 
