@@ -9,7 +9,11 @@
             <title>VisionScript Documentation</title>
         {% endif %}
 
-        <meta name="description" content="VisionScript is an abstract programming language for computer vision." />
+        {% if definition %}
+            <meta name="description" content="{{ title }} Definition: {{ definition }}" />
+        {% else %}
+            <meta name="description" content="VisionScript is an abstract programming language for computer vision." />
+        {% endif %}
 
         <link rel="stylesheet" href="/assets/styles.css">
         <link rel="stylesheet" href="/assets/hovercard.css">
