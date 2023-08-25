@@ -16,7 +16,7 @@ signatures:
 GetText[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, retrieves the text, and displays it.
 

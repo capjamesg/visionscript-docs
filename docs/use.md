@@ -16,7 +16,7 @@ signatures:
 Use["model"]
 ```
 
-### Examples
+## Examples
 
 The following example declares that the YOLOv8 (COCO checkpoint) model should be used, before loading an image, detecting objects, and saying what they are.
 

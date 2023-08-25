@@ -16,11 +16,11 @@ signatures:
 Select[1]
 ```
 
-### Arguments
+## Arguments
 
 - `idx` - The index of the item to select.
 
-### Examples
+## Examples
 
 The following example loads an image, finds all of the people, and retrieves the first three predictions.
 

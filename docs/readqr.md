@@ -16,7 +16,7 @@ signatures:
 ReadQR[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, detects a QR code, and displays the text associated with the QR code.
 

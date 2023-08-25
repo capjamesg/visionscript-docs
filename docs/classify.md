@@ -20,11 +20,11 @@ Classify[] uses a zero-shot model which means you can specify any class you like
 Classify["cat", "dog"]
 ```
 
-### Arguments
+## Arguments
 
 - An arbitrary number of `class` arguments that specify the labels to use in classification.
 
-### Examples
+## Examples
 
 The following example loads an image, classifies if the image is a cat or a dog, and displays the results.
 

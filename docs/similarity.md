@@ -18,11 +18,11 @@ Similarity[]
 Similarity[3]
 ```
 
-### Arguments
+## Arguments
 
 - `n` - The number of images to compare. Defaults to 2.
 
-### Examples
+## Examples
 
 The following example loads two images, compares them, and displays a similarity score.
 

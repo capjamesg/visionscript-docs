@@ -23,7 +23,7 @@ CountInRegion[x, y, width, height]
 - `width` - The width of the region.
 - `height` - The height of the region.
 
-### Examples
+## Examples
 
 The following example loads an image, detects all the people in the image, gets the number of people in a region of the image, and shows how many detections were identified in the region.
 

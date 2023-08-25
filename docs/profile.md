@@ -18,7 +18,7 @@ signatures:
 Profile[]
 ```
 
-### Examples
+## Examples
 
 The following code prints a statement saying how many cats are in an image if a cat is found in an image:
 

@@ -24,11 +24,11 @@ Segment[]
 Segment["person"]
 ```
 
-### Arguments
+## Arguments
 
 - `class` - The class to detect. If no class is specified, all objects will be segmented.
 
-### Examples
+## Examples
 
 The following example loads an image, runs inference to find all objects matching the "person" class, and displays the results.
 

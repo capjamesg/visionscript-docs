@@ -23,11 +23,11 @@ Save["image.png"]
 Save["predictions.csv"]
 ```
 
-### Arguments
+## Arguments
 
 - `filename` - The name of the file to save the image or detections to. Use `.csv` as the file extension to save detections. Use `.jpg` or `.png` to save an image.
 
-### Examples
+## Examples
 
 ```
 Load["./photo.jpg"]

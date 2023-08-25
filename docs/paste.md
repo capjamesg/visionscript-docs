@@ -16,12 +16,12 @@ signatures:
 Paste[x, y]
 ```
 
-### Arguments
+## Arguments
 
 - `x` - The x position to start pasting the image.
 - `y` - The y position to start pasting the image.
 
-### Examples
+## Examples
 
 The following example cuts out the first cat in an image then pastes it in the top corner of the image.
 

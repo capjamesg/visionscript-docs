@@ -18,12 +18,12 @@ Web["url"]
 Web["url", {"item1": "item1", "item2": "item2"}]
 ```
 
-### Arguments
+## Arguments
 
 - `url`: The URL to which you want to send a GET request.
 - `body`: JSON-encoded parameters to send in a POST body. If `body` is provided, the request sent has the POST type.
 
-### Examples
+## Examples
 
 The following example makes a webhook request if a cat is found in a room:
 

@@ -16,11 +16,11 @@ signatures:
 Import["./file.vic"]
 ```
 
-### Arguments
+## Arguments
 
 - `path` - The path to the .vic file to import.
 
-### Examples
+## Examples
 
 The following example laods a .vic file and calls a function within it:
 

@@ -16,7 +16,7 @@ signatures:
 Reset[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, detects solar panels, then clears the program state.
 

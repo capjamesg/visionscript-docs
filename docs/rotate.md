@@ -16,11 +16,11 @@ signatures:
 Rotate[90]
 ```
 
-### Arguments
+## Arguments
 
 - `angle` - The angle to rotate the image by, in degrees.
 
-### Examples
+## Examples
 
 The following example loads an image, rotates it by 90 degrees, and displays it.
 

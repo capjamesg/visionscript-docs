@@ -16,7 +16,7 @@ signatures:
 Cutout[]
 ```
 
-### Examples
+## Examples
 
 In this example, an image is loaded, faces are detected, and the first face is cut out and added to the image stack. The original image preserves the cut out area.
 

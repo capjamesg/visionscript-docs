@@ -16,7 +16,7 @@ signatures:
 Greyscale[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, converts it to greyscale, and displays it.
 

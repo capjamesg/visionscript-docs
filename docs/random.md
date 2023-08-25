@@ -16,11 +16,11 @@ signatures:
 Random[item1, item2, ...]
 ```
 
-### Arguments
+## Arguments
 
 - `items`: An arbitrary number of items. A random item will be selected from the list.
 
-### Examples
+## Examples
 
 The following example gets a random value from a list.
 

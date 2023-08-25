@@ -16,11 +16,11 @@ signatures:
 SetBrightness[10]
 ```
 
-### Arguments
+## Arguments
 
 - `brightness` - The percentage by which to increase or decrease the brightness of the image. Minimum value is -100, maximum value is 100.
 
-### Examples
+## Examples
 
 The following example loads an image, detects solar panels, increases the brightness of the solar panels by 10%, and displays the new image.
 

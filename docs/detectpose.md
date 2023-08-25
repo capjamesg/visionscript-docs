@@ -21,7 +21,7 @@ DetectPose[] records a numeric value that can be visualized or used to compare a
 DetectPose[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, runs inference to detect keypoints for the person in the image, and displays the keypoints on the image:
 

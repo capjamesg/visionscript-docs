@@ -18,7 +18,7 @@ Replace[]
 Replace["blue"]
 ```
 
-### Examples
+## Examples
 
 In this example, an image is loaded, faces are detected, and the first face is replaced with a blue box. The new image is then saved to a file.
 

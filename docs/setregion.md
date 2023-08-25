@@ -18,12 +18,12 @@ SetRegion[] must be called before Detect[] or Segment[] to filter detections by 
 SetRegion[x, y, width, height]
 ```
 
-### Arguments
+## Arguments
 
 - `x`, `y` - The x and y coordinates of the top left corner of the region.
 - `width`, `height` - The width and height of the region.
 
-### Examples
+## Examples
 
 The following example loads an image and sets the region in which detections must appear to be returned by Detect[]. Then, Detect[] is run to detect solar panels. Predictions not in the specified region are not returned. Then, the filtered predictions are displayed on the the image on which detection was run.
 

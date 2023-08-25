@@ -22,11 +22,11 @@ If a script contains an `Input[]`, it cannot be executed as a VisionScript scrip
 Input["Form Name"]
 ```
 
-### Arguments
+## Arguments
 
 - `Form Name`: A unique identifier for the input. This will be shown as the form name in VisionScript Cloud deployments.
 
-### Examples
+## Examples
 
 The following example asks a user to provide an imagei and will classify whether the image is a cat or a dog. The text response is then displayed.
 

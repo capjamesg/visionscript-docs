@@ -16,7 +16,7 @@ signatures:
 PasteRandom[]
 ```
 
-### Examples
+## Examples
 
 The following example cuts out the first cat in an image then pastes it at a random x, y coordinate in the image.
 

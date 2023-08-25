@@ -23,11 +23,11 @@ Detect[]
 Detect["person"]
 ```
 
-### Arguments
+## Arguments
 
 - `class` - The class to detect.
 
-### Examples
+## Examples
 
 The following example loads an image, runs inference to find all objects matching the "person" class, and displays the results.
 

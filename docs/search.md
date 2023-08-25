@@ -16,11 +16,11 @@ signatures:
 Search["query"]
 ```
 
-### Arguments
+## Arguments
 
 - `query` - The text query.
 
-### Examples
+## Examples
 
 The following example loads a folder of images, searches for images related to a plane, and displays the images ordered by relevance in descending order.
 

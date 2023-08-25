@@ -16,7 +16,7 @@ signatures:
 ShowText["Count: "]
 ```
 
-### Examples
+## Examples
 
 The following example loads a webcam, gets the webcam stream FPS, writes the FPS to the top left corner of the image, and displays the resultant image:
 

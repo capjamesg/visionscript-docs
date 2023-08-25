@@ -12,7 +12,7 @@ signatures:
     - Load["./folder/"]
 ---
 
-### Examples
+## Examples
 
 ```
 Load["./photo.jpg"]
@@ -20,11 +20,11 @@ Load["https://example.com/photo.jpg"]
 Load["./folder/"]
 ```
 
-### Arguments
+## Arguments
 
 - `path` - The path to the image or folder to load.
 
-### Example
+## Example
 
 The following example loads an image and displays it.
 

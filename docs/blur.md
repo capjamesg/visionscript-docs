@@ -16,7 +16,7 @@ signatures:
 Blur[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, detects people, blurs them, and displays the new image.
 

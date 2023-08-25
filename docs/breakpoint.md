@@ -16,7 +16,7 @@ signatures:
 Breakpoint[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, then detects cats in the image. A breakpoint runs which starts an interactive [debugging session](/debugging). Once exiting from the debugging session, the program continues to run.
 

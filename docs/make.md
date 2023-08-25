@@ -25,12 +25,12 @@ Make showgreyscale []
 showgreyscale[]
 ```
 
-### Arguments
+## Arguments
 
 - `name` - The name of the function.
 - `...` - The body of the function.
 
-### Examples
+## Examples
 
 The following example declares a function that converts an image to greyscale and displays it.
 

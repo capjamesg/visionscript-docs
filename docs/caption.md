@@ -20,7 +20,7 @@ signatures:
 Caption[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, generates a caption, and displays the results.
 

@@ -16,11 +16,11 @@ signatures:
 DetectPose[]
 ```
 
-### Arguments
+## Arguments
 
 - `pose1`, `pose2`: The poses to compare.
 
-### Examples
+## Examples
 
 The following example:
 

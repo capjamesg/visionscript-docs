@@ -15,12 +15,12 @@ x == y
 x != y
 ```
 
-### Arguments
+## Arguments
 
 - `x` - The first statement to evaluate
 - `y` - The second statemenet to evaluate
 
-### Examples
+## Examples
 
 The following example loads an image, reads the text in the image, and shows the image if it contains "tea".
 

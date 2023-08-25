@@ -16,11 +16,11 @@ signatures:
 Not[statement]
 ```
 
-### Arguments
+## Arguments
 
 - `statement`: A statement that evaluates to True or False.
 
-### Examples
+## Examples
 
 The following example makes a web request if a car is not found in a video:
 

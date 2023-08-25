@@ -18,7 +18,7 @@ If you have called `Detect[]` or `Segment[]`, the respective bounding boxes or m
 Compare[]
 ```
 
-### Examples
+## Examples
 
 In this example, two images are loaded and displayed size-by-side for comparison.
 

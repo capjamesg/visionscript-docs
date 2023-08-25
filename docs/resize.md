@@ -16,12 +16,12 @@ signatures:
 Resize[100, 100]
 ```
 
-### Arguments
+## Arguments
 
 - `width` - The width to resize the image to.
 - `height` - The height to resize the image to.
 
-### Examples
+## Examples
 
 The following example loads an image, resizes it to 100x100, and displays it.
 

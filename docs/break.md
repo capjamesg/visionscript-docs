@@ -19,7 +19,7 @@ In["./folder/"]
         Break[]
 ```
 
-### Examples
+## Examples
 
 The following example loads a folder of images, looks for a cat in each image, and exits the loop if more than three cats were found in an image:
 

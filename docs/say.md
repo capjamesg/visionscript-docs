@@ -18,11 +18,11 @@ Say[]
 Say["Hello, world!"]
 ```
 
-### Arguments
+## Arguments
 
 - `message` - The message to say.
 
-### Examples
+## Examples
 
 The following example runs inference on an image and prints the results.
 

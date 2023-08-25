@@ -18,7 +18,7 @@ You can only use this function after you have used `In["video.mov"]` on a video 
 GetDistinctScenes[]
 ```
 
-### Examples
+## Examples
 
 The following example loads a video, classifies each frame, and returns the timestamps at which classifications change:
 

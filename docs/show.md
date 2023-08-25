@@ -18,7 +18,7 @@ If you have called `Detect[]` or `Segment[]`, the respective bounding boxes or m
 Show[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, detects the people, and displays the image with bounding boxes around the people.
 

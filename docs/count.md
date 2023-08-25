@@ -16,7 +16,7 @@ signatures:
 Count[]
 ```
 
-### Examples
+## Examples
 
 The following example loads an image, detects all the people in the image, counts the number of people, and says how many were identified in the image.
 
