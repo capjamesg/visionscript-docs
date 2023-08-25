@@ -3,32 +3,143 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Page Not Found - VisionScript</title>
+        {% if title %}
+            <title>{{ title }} - VisionScript Documentation</title>
+        {% else %}
+            <title>VisionScript Documentation</title>
+        {% endif %}
 
         <meta name="description" content="VisionScript is an abstract programming language for computer vision." />
 
         <link rel="stylesheet" href="/assets/styles.css">
+        <link rel="stylesheet" href="/assets/hovercard.css">
+
+        <link rel="manifest" href="/assets/manifest.json">
+
+        <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+
+        <script src="https://kit.fontawesome.com/52ae67a839.js" crossorigin="anonymous"></script>
+
+        <meta property="og:image" content="https://screenshots.jamesg.blog/?url=https://visionscript.dev">
     </head>
     <body>
         <nav>
-            <p><a href="/">VisionScript</a></p>
-            <ul>
+            <a href="/">
+                <p style="margin: 0;"><img src="/assets/logo.svg" alt="VisionScript Logo" height="30" width="30" class="hide_on_desktop"></p>
+                <p style="margin: 0;" class="hide_on_mobile"><img src="/assets/full_logo.svg" alt="VisionScript Logo" height="30" width="200" style="background-color: white;"></p>
+            </a>
+            <a onclick="showMobileMenu()" class="hide_on_desktop"><i class="fas fa-bars" id="hamburger"></i></a>
+            <ul id="menu">
+                {# <li>
+                    <input type="text" placeholder="Search">
+                    <button><i class="fas fa-search"></i></button>
+                </li> #}
                 <li><a href="/#install">Install</a></li>
-                <li><a href="/quickstart">Quickstart</a></li>
+                <li><a href="/tutorials">Tutorials</a></li>
                 <li><a href="/docs">Reference</a></li>
-                <li><a href="/syntax">Syntax</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="https://github.com/capjamesg/visionscript">GitHub</a></li>
             </ul>
+            <script>
+                function showMobileMenu() {
+                    var mobileMenu = document.getElementById("mobile_menu");
+                    if (mobileMenu.style.display === "block") {
+                        mobileMenu.style.display = "none";
+                    } else {
+                        mobileMenu.style.display = "block";
+                    }
+                }
+            </script>
         </nav>
-        <main>
+        <ul id="mobile_menu">
+            <li><a href="/#install">Install</a></li>
+            <li><a href="/tutorials">Tutorials</a></li>
+            <li><a href="/docs">Reference</a></li>
+        </ul>
+        <main class="h-entry">
             <h1>Page Not Found</h1>
             <p>The page you are looking for was not found.</p>
             <p>Try going back to the <a href="/">home page</a>.</p>
         </main>
         <footer>
-            <p>Made with ❤️ and ☕ by <a href="https://jamesg.blog">capjamesg</a>.</p>
+            <div>
+                <img src="/assets/logo.svg" alt="VisionScript Logo">
+            </div>
+            <div>
+                <p>Learn VisionScript</p>
+                <ul>
+                    <li><a href="/#install">Install VisionScript</a></li>
+                    <li><a href="/quickstart">Quickstart</a></li>
+                    <li><a href="/tutorials">Tutorials</a></li>
+                    <li><a href="/docs">Language Documentation</a></li>
+                    <li><a href="/paper">Paper Mode</a></li>
+                </ul>
+                <p>How Tos</p>
+                <ul>
+                    <li><a href="/docs">Lint Code</a></li>
+                    <li><a href="/test">Test Code</a></li>
+                    <li><a href="/documenting">Document a Program</a></li>
+                    <li><a href="/deploy_howto">Deploy a Program</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Reference</p>
+                <ul>
+                    <li><a href="/notebook_howto">VisionScript Notebooks</a></li>
+                    <li><a href="/datatypes">Data Types</a></li>
+                    <li><a href="/stacks">VisionScript Stacks</a></li>
+                    <li><a href="/vscode">VS Code Extension</a></li>
+                    <li><a href="/style">Style Guide</a>
+                    <li><a href="/debug">Debug Code</a></li>
+                </ul>
+                <p>About</p>
+                <ul>
+                    <li><a href="/about">About VisionScript</a></li>
+                    <li><a href="/branding">Branding</a></li>
+                    <li><a href="https://github.com/capjamesg/visionscript">View Language Source</a></li>
+                    <li><a href="https://github.com/capjamesg/visionscript/blob/main/CONTRIBUTING.md">Contribute</a></li>
+                </ul>
+            </div>
         </footer>
+        <p id="attribution">Made with ❤️ by <a href="https://jamesg.blog">capjamesg</a></p>
     </body>
+    <script src="/assets/definitions.js"></script>
+    <script src="/assets/visionscript-highlight.js"></script>
+    <script src="/assets/hovercard.js"></script>
+    <script>
+        // add copy to clipboard to all <pre> tags
+        var pres = document.getElementsByTagName("pre");
+
+        for (var i = 0; i < pres.length; i++) {
+            var pre = pres[i];
+            var button = document.createElement("button");
+            button.innerHTML = "<i class='fas fa-copy'></i> Copy code";
+            button.className = "copy_button";
+            // copy to clipboard
+            button.onclick = function() {
+                var code = pre.innerText;
+                // remove "Copied!" text
+                code = code.replace("Copy code", "");
+                // strip whitespace
+                code = code.trim();
+
+                navigator.clipboard.writeText(code);
+                // show "copied!" tooltip
+                var tooltip = document.createElement("span");
+                tooltip.innerHTML = "<i class='fas fa-check'></i> Copied!";
+                tooltip.className = "tooltip";
+                tooltip.style.top = this.offsetTop - 40 + "px";
+                tooltip.style.left = this.offsetLeft + "px";
+                tooltip.style.position = "absolute";
+                tooltip.style.maxWidth = "150px";
+                tooltip.style.padding = "5px";
+                // show above button
+                this.parentElement.insertBefore(tooltip, this);
+                // remove tooltip after 1 second
+                setTimeout(function() {
+                    tooltip.remove();
+                }, 1000);
+            }
+            // append before text
+            pre.insertBefore(button, pre.firstChild);
+        }
+    </script>
 </html>

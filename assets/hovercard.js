@@ -5,7 +5,10 @@ if (article) {
 }
 
 function hover (target_link) {
-    console.log(target_link);
+  // if link has a no-hover class, skip
+    if (target_link.classList.contains("no-hover")) {
+        return;
+    }
   var hovercard_data = hovercards[target_link.href.replace(/\/+$/, "")];
   console.log(target_link.href.replace(/\/+$/, ""), "tea");
   if (hovercard_data) {
