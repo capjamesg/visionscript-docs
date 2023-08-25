@@ -1,5 +1,5 @@
 ---
-title: VisionScript Documentation
+title: VisionScript
 layout: default.njk
 nomain: true
 ---

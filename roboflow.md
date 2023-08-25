@@ -8,7 +8,7 @@ VisionScript has a built-in integration with [Roboflow](https://roboflow.com), w
 With this integration, you can use a curated list of Roboflow models and add any of the 50,000+ models available on [Roboflow Universe](https://universe.roboflow.com) for use in a VisionScript program, and models you have privately trained on Roboflow.
 
 <div class="callout info">
-<p>Notes:</p>
+<i class="fa-solid fa-circle-info"></i>&nbsp; Information
 <ul>
 <li>This integration is not yet available in VisionScript Notebooks.</li>
 <li>This integration requires an internet connection for setup, unless using Inference (see Using Inference at the bottom of the document for more information).</li>

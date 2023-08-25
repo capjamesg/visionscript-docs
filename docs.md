@@ -3,7 +3,7 @@ title: Library Reference
 layout: default.njk
 ---
 
-Functions available in the VisionScript language.
+Below are functions available in the VisionScript language.
 
 <h2 id="Input">Input</h2>
 
