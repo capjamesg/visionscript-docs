@@ -21,8 +21,8 @@ Size[]
 The following example loads a folder of images. The code displays each image in the folder, then prints out the size of each image to the console.
 
 ```
-In["./folder/"]
-    Load[]
-    Show[]
-    Size[]
+Load["cats.jpeg"]
+Size[]
 ```
+
+![Size[] code example](/assets/size_code.png)

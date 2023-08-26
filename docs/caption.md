@@ -30,7 +30,7 @@ GetEdges[]
 Show[]
 ```
 
-![A caption reading "a bus is driving down the street in front of a building"](/assets/caption.png)
+![Caption code example](/assets/caption_code.png)
 
 ### Supported Models
 

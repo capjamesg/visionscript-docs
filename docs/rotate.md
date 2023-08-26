@@ -25,7 +25,9 @@ Rotate[90]
 The following example loads an image, rotates it by 90 degrees, and displays it.
 
 ```
-Load["./photo.jpg"]
+Load["./cats.jpeg"]
 Rotate[90]
 Show[]
 ```
+
+![Rotate code example](/assets/rotate_code.png)

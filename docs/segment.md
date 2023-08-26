@@ -33,10 +33,12 @@ Segment["person"]
 The following example loads an image, runs inference to find all objects matching the "person" class, and displays the results.
 
 ```
-Load["./photo.jpg"]
-Segment["person"]
+Load["./cats.jpeg"]
+Segment["cat"]
 Show[]
 ```
+
+![Segment[] code example](/assets/segment_code.png)
 
 ### Supported Models
 

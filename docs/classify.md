@@ -29,12 +29,12 @@ Classify["cat", "dog"]
 The following example loads an image, classifies if the image is a cat or a dog, and displays the results.
 
 ```
-Load["./tmp/cat.jpg"]
+Load["./cat.jpeg"]
 Classify["cat", "dog"]
 Show[]
 ```
 
-![A photo of a cat classified as a cat](/assets/classify.png)
+![Classify code example](/assets/classify_code.png)
 
 ### Supported Models
 

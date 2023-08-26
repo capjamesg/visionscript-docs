@@ -18,11 +18,11 @@ Blur[]
 
 ## Examples
 
-The following example loads an image, detects people, blurs them, and displays the new image.
+The following example loads an image, blurs it, and displays the new image.
 
 ```
 Load["./photo.jpg"]
-Detect["person"]
 Blur[]
-Show[]
 ```
+
+![Blur code example](/assets/blur_code.png)
