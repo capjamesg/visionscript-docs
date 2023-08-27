@@ -6,7 +6,10 @@ nomain: true
 
 <div class="side_by_side">
     <div style="flex: 1;">
-        <img src="/assets/image_similarity.png" alt="A VisionScript notebook to find the similarity between two images" />
+        <video controls autoplay loop muted playsinline style="width: 100%; height: auto;">
+            <source src="/assets/intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 
     <div style="flex: 1;">
@@ -49,7 +52,7 @@ nomain: true
     <pre>visionscript --notebook</pre>
     <p>The drag-and-drop interface will appear in your browser.</p>
     <p>The blocks in the drag-and-drop interface generate VisionScript code that you can export and deploy.</p>
-    <img src="/assets/image_similarity.png" alt="A VisionScript notebook to find the similarity between two images" />
+    <img src="/assets/home_image_1.png" alt="A VisionScript notebook that counts the number of cats in an image" />
     <h3>Code-based notebook</h3>
     <p>You can write and run VisionScript code in an interactive web notebook. This system allows persistence of state, which is useful if you are using compute-heavy functions like building a search engine or using the image segmentation features available in VisionScript.</p>
     <p>To create a notebook, use the following command:</p>
